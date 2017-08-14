@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mostrar"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.samuel.practica01.MostrarParrafoActivity">
+    <TextView
+        android:id="@+id/activity_mostrar_parrafo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:id="@+id/NPalabras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Numero de Palabras Encontradas"
+        android:layout_below="@+id/activity_mostrar_parrafo"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myTextView"
+
+        android:orientation="horizontal"
+        android:layout_below="@+id/NPalabras"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.samuel.practica01.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_parrafo"
+        android:hint="Inserte Parrafo"
+        android:inputType="textMultiLine"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+
+        />
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_numero"
+        android:hint="Inserte Numero"
+        android:inputType="number"
+        android:layout_below="@+id/edit_parrafo"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_enviar"
+        android:hint="Enviar"
+        android:layout_below="@+id/edit_numero"
+        android:layout_centerHorizontal="true"
+        android:onClick="Enviar"
+        />
+</RelativeLayout>

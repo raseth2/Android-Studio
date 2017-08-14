@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ortografía y Grámatica</string>
+    <string name="edit_parrafo">Editar Parrafo</string>
+    <string name="edit_numero">Editar Numero</string>
+    <string name="btn_enviar">Saludar</string>
+
+</resources>
